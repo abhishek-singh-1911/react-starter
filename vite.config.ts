@@ -12,6 +12,7 @@ export default defineConfig({
       '@pages': path.resolve(__dirname, './src/pages'),
       '@redux': path.resolve(__dirname, './src/redux'),
       '@utils': path.resolve(__dirname, './src/utils'),
+      '@theme': path.resolve(__dirname, './src/theme')
     }
   }
 })

@@ -1,5 +1,6 @@
 import { useAppDispatch, useAppSelector } from '@redux/dispatcher';
-import { increment } from './slice';
+import { increment, decrement } from './slice';
+import { Button, Typography } from '@mui/material';
 
 
 const Counter = () => {
@@ -8,8 +9,15 @@ const Counter = () => {
 
   return (
       <div>
-          <p>Count: {count}</p>
-          <button onClick={() => dispatch(increment())}>Increment</button>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Count: {count}
+        </Typography>
+        <Button variant="contained" color="secondary" onClick={() => dispatch(decrement())}>
+          Decrement
+        </Button>
+        <Button variant="contained" color="secondary" sx={{ml: '1rem'}} onClick={() => dispatch(increment())}>
+          Increment
+        </Button>
       </div>
   );
 };
