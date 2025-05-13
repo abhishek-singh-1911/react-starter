@@ -31,7 +31,8 @@
       "@pages/*": ["src/pages/*"],
       "@utils/*": ["src/utils/*"],
       "@redux/*": ["src/redux/*"],
-      "@theme/*": ["src/theme/*"]
+      "@theme/*": ["src/theme/*"],
+      "@common/*": ["src/common/*"]
     }
   },
   "include": ["src"]
