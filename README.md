@@ -40,8 +40,8 @@ Make sure you have the following installed on your system:
 1.  Clone the repository:
 
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
-    cd your-project-name
+    git clone https://github.com/abhishek-singh-1911/react-starter.git
+    cd react-starter
     ```
 
 2.  Install the dependencies using npm or yarn:
