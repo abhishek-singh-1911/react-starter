@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useMemo } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { type RootState, type AppDispatch } from '@redux/store.ts';
+import { type RootState, type AppDispatch } from '@/reduxAndHooks/store';
 import App from '@/App.tsx';
 import { ThemeProvider as MuiThemeProvider, CssBaseline } from '@mui/material';
 import { lightMuiTheme, darkMuiTheme, rainbowMuiTheme } from '@theme/muiThemes.ts';

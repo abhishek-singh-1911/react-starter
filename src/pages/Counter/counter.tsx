@@ -1,7 +1,6 @@
-import { useAppDispatch, useAppSelector } from '@redux/dispatcher';
+import { useAppDispatch, useAppSelector } from '@reduxAndHooks/dispatcher';
 import { increment, decrement } from './slice';
 import { Button, Typography } from '@mui/material';
-
 
 const Counter = () => {
   const count = useAppSelector((state) => state.counter.value);

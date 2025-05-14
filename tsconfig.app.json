@@ -30,9 +30,10 @@
       "@assets/*": ["src/assets/*"],
       "@pages/*": ["src/pages/*"],
       "@utils/*": ["src/utils/*"],
-      "@redux/*": ["src/redux/*"],
+      "@reduxAndHooks/*": ["src/reduxAndHooks/*"],
       "@theme/*": ["src/theme/*"],
-      "@common/*": ["src/common/*"]
+      "@common/*": ["src/common/*"],
+      "@router/*": ["src/router/*"]
     }
   },
   "include": ["src"]

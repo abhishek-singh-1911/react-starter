@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { type RootState, type AppDispatch } from '@redux/store';
+import { type RootState, type AppDispatch } from '@reduxAndHooks/store';
 import { setTheme, type ThemeMode } from '@theme/themeSlice';
 import { Button, Box, Typography, Paper, AppBar, Toolbar, Container } from '@mui/material';
 

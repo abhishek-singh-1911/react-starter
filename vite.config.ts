@@ -10,9 +10,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@pages': path.resolve(__dirname, './src/pages'),
-      '@redux': path.resolve(__dirname, './src/redux'),
+      '@reduxAndHooks': path.resolve(__dirname, './src/reduxAndHooks'),
       '@utils': path.resolve(__dirname, './src/utils'),
       '@theme': path.resolve(__dirname, './src/theme'),
+      '@router': path.resolve(__dirname, './src/router'),
       '@common': path.resolve(__dirname, './src/common')
     }
   }
